@@ -11,7 +11,7 @@ import json
 takes Google's json encoded spreadsheet and prints a python dictionary keyed by
 the values in the first column of the SS.
 """
-
+https://docs.google.com/spreadsheets/d/1OPNQC3xBp3iQTpjVfd6cpvvA0BpHWhb3QiNOvGFZ9z8/pubhtml
 # It's not easy to determine what URL parameters Google makes available for a
 # Google Spreadsheet that has been 'published'. Here's some dope:
 # http://stackoverflow.com/questions/23446449/google-sheet-embed-url-
@@ -95,4 +95,5 @@ for e in entry_list:
     SSdict[e['title']['$t']] = entrydict
 
 
-pprint(SSdict)
+print stringIn
+#pprint(SSdict)
