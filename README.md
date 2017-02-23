@@ -37,9 +37,7 @@ Sample Spreadsheet : Sheet1 Table:
 | ted         | Detroit       | Mi    | 48104 |
 | alice       | Denver        | Co    | 54321 |
 
-The JSON representation seems to me bizarre and opaque. The actual data of the spreadsheet cells has to be parsed from a string. The relevant portion of the JSON representation is the `list` of `entry` objects that each have a `title` and a `content` property. The `entry` object for the first row of our spreadsheet looks like this:
-
-<code>
+The JSON representation seems to me bizarre and opaque. The actual data of the spreadsheet cells has to be parsed from a string. The relevant portion of the JSON representation is the `list` of `entry` objects that each have a `title` and a `content` property. The `entry` object for the first row of our spreadsheet looks like this:<code>
 <pre>
     {
     "id": {
@@ -73,4 +71,4 @@ The JSON representation seems to me bizarre and opaque. The actual data of the s
 </pre>
 </code>
 
-
+The script does only the most rudimentary parsing of the payload string. I an envision all sorts of cases in which ambiguous data in the string would defeat this script; so, use at your own risk.
