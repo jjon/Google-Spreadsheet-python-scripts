@@ -1,16 +1,16 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import urllib2
-from pprint import pprint
-import re
-import json
-
 """
 Takes Google's json encoded spreadsheet and prints a python dictionary keyed by
 the values in the first column of the SS. ©2017 J. J. Crump, GNU general public
 license
 """
+
+import urllib2
+from pprint import pprint
+import re
+import json
 
 
 # This is the url of a sample google spreadsheet that I've published to the web. The url returns a prettyprinted json string:
