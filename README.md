@@ -71,4 +71,4 @@ The JSON representation seems to me bizarre and opaque. The actual data of the s
 </pre>
 </code>
 
-The script does only the most rudimentary parsing of the payload string. I an envision all sorts of cases in which ambiguous data in the string would defeat this script; so, use at your own risk.
+The script does only the most rudimentary parsing of the payload string. I can envision all sorts of cases in which ambiguous data in the string would defeat this script; so, use at your own risk.
