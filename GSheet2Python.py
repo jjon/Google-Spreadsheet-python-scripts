@@ -7,8 +7,9 @@ import re
 import json
 
 """
-takes Google's json encoded spreadsheet and prints a python dictionary keyed by
-the values in the first column of the SS.
+Takes Google's json encoded spreadsheet and prints a python dictionary keyed by
+the values in the first column of the SS. ©2017 J. J. Crump, GNU general public
+license
 """
 
 
