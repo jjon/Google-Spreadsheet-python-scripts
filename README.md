@@ -32,10 +32,10 @@ for our purposes here, some prettyprinted json is easiest to work with:
 our sample spreadsheet looks like this:
 Sample Spreadsheet : Sheet1 Table:
 
-    | name        | city          | state | zip   |
-    | ----------- | ------------- | ----- | ----- |
-    | bob         | Seattle       | Wa    | 98116 |
-    | carol       | San Francisco | Ca    | 62742 |
-    | ted         | Detroit       | Mi    | 48104 |
-    | alice       | Denver        | Co    | 54321 |
+| name        | city          | state | zip   |
+| ----------- | ------------- | ----- | ----- |
+| bob         | Seattle       | Wa    | 98116 |
+| carol       | San Francisco | Ca    | 62742 |
+| ted         | Detroit       | Mi    | 48104 |
+| alice       | Denver        | Co    | 54321 |
 
